@@ -117,3 +117,65 @@ a {
         height: auto;
     }
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-item {
+    color: black;
+}
+
+#attendance {
+    background-color: #f9f9f9;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid gray;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+button:active {
+    background-color: gray;
+}
+
+h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+h2 ~ p {
+    color: #444444;
+}
+
+h2 + p {
+    font-weight: bold;
+}
+
+section.flex-section {
+    border: 2px solid #cccccc;
+}
+
+section:has(img) {
+    background-color: #eef7ff;
+}
+
+nav {
+    a {
+        color: blue;
+    }
+}
