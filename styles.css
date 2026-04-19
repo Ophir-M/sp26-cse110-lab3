@@ -61,3 +61,39 @@ nav {
     top: 0;
     background-color: white;
 }
+
+span {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-item {
+    background-color: #e6f0ff;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+.grid-item {
+    background-color: #fbeecf;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
