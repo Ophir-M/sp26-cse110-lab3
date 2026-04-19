@@ -22,3 +22,42 @@ p {
 section {
     background-color: white;
 }
+
+main {
+    width: 80%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+}
+
+section {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    border-radius: 12px;
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 3px solid hsl(210, 50%, 60%);
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0 10px 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
