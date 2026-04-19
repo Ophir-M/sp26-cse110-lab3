@@ -1,5 +1,24 @@
-/* Lab 3 style */
-
 body {
-    background-color: #f4f4f4;
+    background-color: rgb(240, 240, 240);
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: hsl(210, 70%, 40%);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: orange;
+}
+
+p {
+    color: rgba(50, 50, 50, 0.9);
+}
+
+section {
+    background-color: white;
 }
