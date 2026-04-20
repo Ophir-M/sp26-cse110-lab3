@@ -76,6 +76,21 @@ a {
     display: inline-block;
 }
 
+.subtitle {
+    color: color(display-p3 0.2 0.4 0.8);
+    font-size: 2em;
+    margin-top: 12pt;
+    padding-left: 0.2in;
+}
+
+.hero-note {
+    width: 90vw;
+}
+
+.hidden-note {
+    display: none;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
