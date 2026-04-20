@@ -1,8 +1,14 @@
+/* Lab 3 stylesheet */
+:root {
+    --footer-color: lightblue;
+}
+
 body {
     background-color: rgb(240, 240, 240);
     color: #222222;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    font-size: 1rem;
 }
 
 h1 {
@@ -68,6 +74,21 @@ span {
 
 a {
     display: inline-block;
+}
+
+.subtitle {
+    color: color(display-p3 0.2 0.4 0.8);
+    font-size: 2em;
+    margin-top: 12pt;
+    padding-left: 0.2in;
+}
+
+.hero-note {
+    width: 90%;
+}
+
+.hidden-note {
+    display: none;
 }
 
 .flex-container {
@@ -174,8 +195,18 @@ section:has(img) {
     background-color: #eef7ff;
 }
 
+footer {
+    background-color: var(--footer-color, lightblue);
+    color: color-mix(in srgb, blue 50%, white 50%);
+}
+
 nav {
     a {
         color: blue;
     }
 }
+
+audio {
+    display: block;
+}
+
